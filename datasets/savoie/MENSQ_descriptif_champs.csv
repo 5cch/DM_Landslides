@@ -1,0 +1,172 @@
+NUM_POSTE       : numÃ©ro MÃ©tÃ©o-France du poste sur 8 chiffres
+NOM_USUEL       : nom usuel du poste
+LAT             : latitude, nÃ©gative au sud (en degrÃ©s et millioniÃ¨mes de degrÃ©)
+LON             : longitude, nÃ©gative Ã  lâ€™ouest de GREENWICH (en degrÃ©s et millioniÃ¨mes de degrÃ©)
+ALTI            : altitude du pied de l'abri ou du pluviomÃ¨tre si pas d'abri (en m)
+AAAAMM          : mois
+RR              : cumul mensuel des hauteurs de prÃ©cipitation (en mm et 1/10)
+QRR             : code qualitÃ© de RR
+NBRR            : nombre de valeurs prÃ©sentes de hauteur de prÃ©cipitation quotidienne
+RR_ME           : cumul mensuel estimÃ© des hauteurs de prÃ©cipitation (en mm et 1/10)
+RRAB            : prÃ©cipitation maximale tombÃ©e en 24 heures au cours du mois (en mm et 1/10)
+QRRAB           : code qualite de RRAB
+RRABDAT         : jour du RRAB
+NBJRR1          : nombre de jours avec RR â‰¥ 1.0 mm
+NBJRR5          : nombre de jours avec RR â‰¥ 5.0 mm
+NBJRR10         : nombre de jours avec RR â‰¥ 10.0 mm
+NBJRR30         : nombre de jours avec RR â‰¥ 30.0 mm
+NBJRR50         : nombre de jours avec RR â‰¥ 50.0 mm
+NBJRR100        : nombre de jours avec RR â‰¥ 100.0 mm
+PMERM           : moyenne mensuelle des pressions mer moyennes (PMERM) quotidiennes (en hPa et 1/10)
+QPMERM          : code qualitÃ© de PMERM
+NBPMERM         : nombre de valeurs prÃ©sentes de PMERM quotidienne
+PMERMINAB       : minimum absolu mensuel des pressions mer moyennes quotidiennes (en hPa et 1/10)
+QPMERMINAB      : code qualitÃ© de PMERMINAB
+PMERMINABDAT    : jour du PMERMINAB maximum
+TX              : moyenne mensuelle des tempÃ©ratures maximales (TX) quotidiennes (en Â°C et 1/10)
+QTX             : code qualitÃ© de TX
+NBTX            : nombre de valeurs prÃ©sentes de TX quotidienne
+TX_ME           : moyenne mensuelle estimÃ©e des TX quotidiennes (en Â°C et 1/10)
+TXAB            : maximum absolu mensuel des TX quotidiennes (en Â°C et 1/10)
+QTXAB           : code qualitÃ© de TXAB
+TXDAT           : jour du TXAB
+TXMIN           : minimum mensuel des TX quotidiennes (en Â°C et 1/10)
+QTXMIN          : code qualitÃ© de TXMIN
+TXMINDAT        : jour du TXMIN
+NBJTX0          : nombre de jours avec TX â‰¤ 0Â°C
+NBJTX25         : nombre de jours avec TX â‰¥ 25Â°C
+NBJTX30         : nombre de jours avec TX â‰¥ 30Â°C
+NBJTX35         : nombre de jours avec TX â‰¥ 35Â°C
+NBJTXI20        : nombre de jours avec TX â‰¤ 20Â°C
+NBJTXI27        : nombre de jours avec TX â‰¤ 27Â°C
+NBJTXS32        : nombre de jours avec TX â‰¥ 32Â°C
+TN              : moyenne mensuelle des tempÃ©ratures minimales (TN) quotidiennes (en Â°C et 1/10)
+QTN             : code qualitÃ© de TN
+NBTN            : nombre de valeurs prÃ©sentes de TN quotidienne
+TN_ME           : moyenne mensuelle estimÃ©e des TN quotidiennes (en Â°C et 1/10)
+TNAB            : minimum absolu mensuel des TN quotidiennes (en Â°C et 1/10)
+QTNAB           : code qualitÃ© de TNAB
+TNDAT           : jour du TNAB
+TNMAX           : maximum mensuel des TN quotidiennes (en Â°C et 1/10)
+QTNMAX          : code qualitÃ© de TNMAX
+TNMAXDAT        : jour du TNMAX
+NBJTN5          : nombre de jours avec TN â‰¤ -5Â°C
+NBJTN10         : nombre de jours avec TN â‰¤ -10Â°C
+NBJTNI10        : nombre de jours avec TN â‰¤ +10Â°C
+NBJTNI15        : nombre de jours avec TN â‰¤ +15Â°C
+NBJTNI20        : nombre de jours avec TN â‰¤ +20Â°C
+NBJTNS20        : nombre de jours avec TN â‰¥ +20Â°C
+NBJTNS25        : nombre de jours avec TN â‰¥ +25Â°C
+NBJGELEE        : nombre de jours avec gelÃ©e
+TAMPLIM         : moyenne mensuelle des amplitudes thermiques (TAMPLI) quotidiennes (en Â°C et 1/10)
+QTAMPLIM        : code qualitÃ© du TAMPLIM
+TAMPLIAB        : maximum absolu mensuel des amplitudes thermiques quotidiennes (en Â°C et 1/10)
+QTAMPLIAB       : code qualitÃ© du TAMPLIAB
+TAMPLIABDAT     : jour du TAMPLIAB
+NBTAMPLI        : nombre de valeurs prÃ©sentes de TAMPLI quotidienne
+TM              : moyenne mensuelle des (TN+TX)/2 quotidiennes (en Â°C et 1/10)
+QTM             : code qualitÃ© de TM
+NBTM            : nombre de valeurs prÃ©sentes du couple (TN, TX) quotidien
+TMM             : moyenne mensuelle des tempÃ©ratures moyennes (TM) quotidiennes (en Â°C et 1/10)
+QTMM            : code qualitÃ© du TMM
+NBTMM           : nombre de valeurs prÃ©sentes de TM quotidienne
+NBJTMS24        : nombre de jours avec TM quotidienne â‰¥ 24Â°C
+TMMIN           : minimum mensuel des moyennes (TN+TX)/2 quotidiennes (en Â°C et 1/10)
+QTMMIN          : code qualitÃ© de TMMIN
+TMMINDAT        : jour du TMMIN
+TMMAX           : maximum mensuel des moyennes (TN+TX)/2 quotidiennes (en Â°C et 1/10) 
+QTMMAX          : code qualitÃ© du TMMAX
+TMMAXDAT        : jour du TMMAX
+UNAB            : minimum absolu mensuel des humiditÃ©s relatives minimales (UN) quotidiennes (en %)
+QUNAB           : code qualitÃ© de UNAB
+UNABDAT         : jour du UNAB
+NBUN            : nombre de valeurs prÃ©sentes de UN quotidienne
+UXAB            : maximum absolu mensuel des humiditÃ©s relatives maximales (UX) quotidiennes (en %)
+QUXAB           : code qualitÃ© de UXAB
+UXABDAT         : jour du UXAB
+NBUX            : nombre de valeurs prÃ©sentes de UX quotidienne
+UMM             : moyenne mensuelle des humiditÃ©s moyennes (UM) quotidiennes (en %)
+QUMM            : code qualitÃ© de UMM
+NBUM            : nombre de valeurs prÃ©sentes de UM quotidienne
+TSVM            : moyenne mensuelle de la tension de vapeur (en hPa et 1/10)
+QTSVM           : code qualitÃ© du TSVM
+NBTSVM          : nombre de valeurs prÃ©sentes de TSV quotidienne
+ETP             : somme des ETP Penman dÃ©cadaires (en mm et 1/10)
+QETP            : code qualitÃ© de ETP
+FXIAB           : maximum absolu mensuel de la force maximale quotidienne du vent instantanÃ©, Ã  10 m (en m/s et 1/10)
+QFXIAB          : code qualitÃ© de FXIAB
+DXIAB           : direction du FXIAB (en rose de 360)
+QDXIAB          : code qualitÃ© de DXIAB
+FXIDAT          : jour du FXIAB
+NBJFF10         : nombre de jours avec FXI â‰¥ 10 m/s
+NBJFF16         : nombre de jours avec FXI â‰¥ 16 m/s
+NBJFF28         : nombre de jours avec FXI â‰¥ 28 m/s
+NBFXI           : nombre de valeurs prÃ©sentes de FXI quotidienne
+FXI3SAB         : maximum absolu mensuel de la force maximale quotidienne du vent moyennÃ© sur 3 secondes, Ã  10 m (en m/s et 1/10)
+QFXI3SAB        : code qualitÃ© de FXI3SAB
+DXI3SAB         : direction associÃ©e Ã  FXI3SAB (en rose de 360)
+QDXI3SAB        : code qualitÃ© de DXI3SAB
+FXI3SDAT        : jour du FXI3SAB
+NBJFXI3S10      : nombre de jours avec FXI3S â‰¥ 10 m/s
+NBJFXI3S16      : nombre de jours avec FXI3S â‰¥ 16 m/s
+NBJFXI3S28      : nombre de jours avec FXI3S â‰¥ 28 m/s
+NBFXI3S         : nombre de valeurs prÃ©sentes de FXI3S quotidienne
+FXYAB           : maximum absolu mensuel de la force maximale quotidienne du vent moyennÃ© sur 10 mn (FXY), Ã  10 m (en m/s et 1/10)
+QFXYAB          : code qualitÃ© du FXYAB
+DXYAB           : direction associÃ©e Ã  FXYAB (en rose de 360)
+QDXYAB          : code qualitÃ© de DXYAB
+FXYABDAT        : jour du FXYAB 
+NBJFXY8         : nombre de jours avec FXY â‰¥ 8 m/s
+NBJFXY10        : nombre de jours avec FXY â‰¥ 10 m/s
+NBJFXY15        : nombre de jours avec FXY â‰¥ 15 m/s
+NBFXY           : nombre de valeurs prÃ©sentes de FXY quotidienne
+FFM             : moyenne mensuelle de la force moyenne quotidienne du vent moyennÃ© sur 10 mn (FFM), Ã  10 m (en m/s et 1/10)
+QFFM            : code qualitÃ© du FFM
+NBFFM           : nombre de valeurs prÃ©sentes de FFM quotidienne
+INST            : cumul mensuel des durÃ©es totales dâ€™insolation quotidiennes (en mn)
+QINST           : code qualitÃ© du INST
+NBINST          : nombre de valeurs prÃ©sentes de INST quotidienne
+NBSIGMA0        : nombre de jours avec SIGMA = 0% (SIGMA est la fraction d'insolation par rapport Ã  la durÃ©e du jour)
+NBSIGMA20       : nombre de jours avec SIGMA â‰¤ 20%
+NBSIGMA80       : nombre de jours avec SIGMA â‰¥ 80%
+GLOT            : cumul mensuel du rayonnement global quotidien (en J/cm2)
+QGLOT           : code qualitÃ© du GLOT
+NBGLOT          : nombre de valeurs prÃ©sentes de GLOT quotidien
+DIFT            : cumul mensuel du rayonnement diffus quotidien (en J/cm2)
+QDIFT           : code qualitÃ© du DIFT
+NBDIFT          : nombre de valeurs prÃ©sentes de DIFT quotidien
+DIRT            : cumul mensuel du rayonnement direct quotidien (en J/cm2)
+QDIRT           : code qualitÃ© du DIRT
+NBDIRT          : nombre de valeurs prÃ©sentes de DIRT quotidien
+HNEIGEFTOT      : cumul mensuel de la hauteur de neige fraÃ®che tombÃ©e en 24h (HNEIGEF quotidienne) (en cm)
+QHNEIGEFTOT     : code qualitÃ© du HNEIGEFTOT
+HNEIGEFAB       : maximum absolu mensuel de HNEIGEF (en cm)
+QHNEIGEFAB      : code qualitÃ© du HNEIGEFAB
+HNEIGEFDAT      : jour du HNEIGEFAB 
+NBHNEIGEF       : nombre de valeurs prÃ©sentes de HNEIGEF quotidienne
+NBJNEIG         : nombre de jours avec prÃ©cipitation de neige
+NBJHNEIGEF1     : nombre de jours avec chutes de neige en 24h supÃ©rieures Ã  1 cm (Ã  partir de HNEIGEF quotidienne)
+NBJHNEIGEF5     : nombre de jours avec chutes de neige en 24h supÃ©rieures Ã  5 cm (Ã  partir de HNEIGEF quotidienne)
+NBJHNEIGEF10    : nombre de jours avec chutes de neige en 24h supÃ©rieures Ã  10 cm (Ã  partir de HNEIGEF quotidienne)
+NBJSOLNG        : nombre de jours avec sol couvert de neige (Ã  partir de SOLNEIGE quotidien)
+NEIGETOTM       : moyenne mensuelle de lâ€™Ã©paisseur totale de neige mesurÃ©e quotidiennement Ã  6h (NEIGETOT06 quotidien) (en cm)
+QNEIGETOTM      : code qualitÃ© du NEIGETOTM
+NEIGETOTAB      : maximum absolu mensuel de l'Ã©paisseur maximale de neige (NEIGETOTX) quotidienne (en cm)
+QNEIGETOTAB     : code qualitÃ© du NEIGETOTAB
+NEIGETOTABDAT   : jour du NEIGETOTAB
+NBJNEIGETOT1    : nombre de jours avec enneigement supÃ©rieur Ã  1cm (Ã  partir de NEIGETOTX quotidienne)
+NBJNEIGETOT10   : nombre de jours avec enneigement supÃ©rieur Ã  10cm (Ã  partir de NEIGETOTX quotidienne)
+NBJNEIGETOT30   : nombre de jours avec enneigement supÃ©rieur Ã  30cm (Ã  partir de NEIGETOTX quotidienne)
+NBJGREL         : nombre de jours prÃ©sents avec grÃªle
+NBJORAG         : nombre de jours prÃ©sents avec orage
+NBJBROU         : nombre de jours prÃ©sents avec brouillard
+
+Les valeurs du code qualitÃ© sont les suivantes :
+ 9 : donnÃ©e filtrÃ©e (la donnÃ©e a passÃ© les filtres/contrÃ´les de premiers niveaux)
+ 0 : donnÃ©e protÃ©gÃ©e (la donnÃ©e a Ã©tÃ© validÃ©e dÃ©finitivement par le climatologue)
+ 1 : donnÃ©e validÃ©e (la donnÃ©e a Ã©tÃ© validÃ©e par contrÃ´le automatique ou par le climatologue)
+ 2 : donnÃ©e douteuse en cours de vÃ©rification (la donnÃ©e a Ã©tÃ© mise en doute par contrÃ´le automatique)
+ 
+D'une faÃ§on gÃ©nÃ©rale, les valeurs fournies sont donnÃ©es avec une prÃ©cision qui correspond globalement Ã  la rÃ©solution de l'appareil de mesure de la valeur.
+Toutefois, il peut arriver, pour des raisons techniques de stokage ou d'extraction des valeurs, que cette rÃ¨gle ne soit pas respectÃ©e.
+Du fait d'arrondis, il peut ponctuellement arriver que des valeurs de base Ã  un pas de temps infÃ©rieur (par exemple donnÃ©es minutes) ne soient pas exactement cohÃ©rentes avec leurs correspondants sur un pas de temps supÃ©rieur (par exemple donnÃ©es horaires).
